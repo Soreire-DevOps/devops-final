@@ -1,5 +1,5 @@
 # PromosDigitales-back-getClient
-````
+```
 (async () => {
   const res = await getClient({
     countryId: 'AR',
