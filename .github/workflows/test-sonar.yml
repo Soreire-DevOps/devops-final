@@ -30,12 +30,10 @@ name: SonarCloud analysis
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
     branches:
       - main
-      - dev
-      - qa
-      - prod
+    types: [opened, synchronize, reopened]
+  
 jobs:
   sonarcloud:
     name: SonarCloud
